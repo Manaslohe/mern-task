@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+    <style>
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            display: flex;
+            background-color: lightgray;
+        }
+
+        .horizontal-nav a {
+            padding: 15px 20px;
+            text-decoration: none;
+            color: blue;
+            transition: color 0.3s, background-color 0.3s;
+            background-color: lightgray;
+            border-right: 1px solid blue; 
+        }
+
+        .horizontal-nav a:last-child {
+            border-right: none; 
+        }
+
+        .horizontal-nav a:hover {
+            color: white;
+            background-color: darkgray;
+        }
+
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            background-color: lightgray;
+            width: 100px;
+        }
+
+        .vertical-nav a {
+            display: block;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: blue;
+            transition: color 0.3s, background-color 0.3s;
+            background-color: lightskyblue;
+        }
+
+        .vertical-nav a:hover {
+            color: white;
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h3> Hover over nav bars</h3>
+    <!-- Horizontal Navigation Bar -->
+    <nav class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </nav>
+    <br>
+    <!-- Vertical Navigation Bar -->
+    <nav class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </nav>
+</body>
+</html>

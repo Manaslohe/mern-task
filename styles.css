@@ -1,0 +1,61 @@
+/* Element selectors will bring out generalised styles */
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: lightblue;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 5px solid red;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* id selector -> higher priority*/
+#table {
+  background-color: lightcyan;
+  color: darkblue;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+#para1 {
+  font-size: 20px;
+  text-align: justify;
+  border: 1px solid darkblue;
+  line-height: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.flexcontainer{
+  background-color: lightblue;
+display: flex;
+padding: 10px;
+}
+
+.flextext{
+  padding-right: 10px;
+  padding: auto;
+  font-size: 20px;
+  font-family: "times new roman", times, serif;
+}
+
+.fleximage{
+padding: auto;
+border-image-width: 10px;
+}
