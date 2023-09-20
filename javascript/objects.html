@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>We are learning javascript</h1>
+    <script>
+        let person = {
+            name: "John",
+            age: 20,
+            qualification: "B.Tech",
+        };
+        //object - carries attributes (property/variables) and behaviour (methods/functions)
+        // console.log(person);    
+        // document.write(person.name + "<br>");
+        // document.write(person.age + "<br>");
+        // document.write(person.qualification + "<br>");
+        // // way 2 to access the properties of an object
+        // document.write(person["name"] + "<br>");
+        // document.write(person["age"] + "<br>");
+        // document.write(person["qualification"] + "<br>");
+        
+        // for in loop will help us iterate over the properties of an object
+
+        for( let p in person);
+        {
+            console.log(p);
+            console.log(typeof p);
+            // name age qualification
+            //datatype of p is string   
+        }
+
+
+        </script>
+        </body>
+        </html>
